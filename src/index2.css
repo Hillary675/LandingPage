@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: poppins, sans-serif;
+  font-size: 10px;
+  padding: 0;
+}
+.Lovelywork {
+  background-color: #3d464e;
+  padding: 5% 15%;
+  height: 50%;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.vertical-bar {
+  width: 4px;
+  height: 20px;
+  background-color: #babcbe;
+  margin: 10px;
+}
+.h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #f8f8f8;
+}
+.img {
+  display: block;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.img-item {
+  padding: 0px;
+  margin: 10px;
+  position: relative;
+}
+.img-row1,
+.img-row2 {
+  display: flex;
+  justify-content: space-around;
+}
+.img-thumb {
+  display: block;
+}
+.img-item img {
+  transition: opacity 0.3s ease;
+}
+.img-item:hover .img-thumb img {
+  filter: opacity(60%);
+}
+.link-text {
+  text-transform: uppercase;
+  background-color: #2d343d;
+  color: #f8f8f8;
+  font-size: 13px;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.img-thumb:hover .link-text {
+  display: block;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button1 {
+  background-color: #3d464e;
+  border: 2px solid #f8f8f8;
+  color: #f8f8f8;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.button1:hover {
+  background-color: #ffffff;
+  color: #3d464e;
+}

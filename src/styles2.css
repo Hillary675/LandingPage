@@ -1,0 +1,39 @@
+:root {
+    background: #fff;
+    color: #000;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.head {
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    padding: 30px 150px;
+    margin-top: 50px;
+}
+
+.canvas {
+    border: 1px solid #beb9b9f0;
+    background-color: #beb9b9f0;
+    padding: 0 3px;
+}
+
+.header {
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+    margin-left: 10px;
+}
+
+.body {
+    padding: 0 130px;
+}
+
+.icon {
+    font-size: 40px !important;
+    color:#2bb388;
+}
