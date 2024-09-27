@@ -7,11 +7,14 @@ body {
   }
   .container {
     display: flex;
-      justify-content: space-between;
-      flex-direction: row;
-      padding: 5% 15%;
-      margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 15%;
+    margin-top: 20px;
+    height: 100vh;
   }
+
   .left-content {
     width: 50%;
   }
